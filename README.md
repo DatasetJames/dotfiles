@@ -26,6 +26,7 @@ OSX Setup
 - Goofy
 - Google Drive
 - Leaf
+- Lightshot Screenshot
 - Microsoft Office 2011
 - Mou
 - Picasa
