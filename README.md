@@ -47,6 +47,6 @@ OSX Setup
 - Wunderlist
 - Xcode
 
-### Games:
+### Bootcamp:
 - Origin
 - Steam
