@@ -29,6 +29,7 @@ OSX Setup
 - Lightshot Screenshot
 - Microsoft Office 2011
 - Mou
+- NTFS free
 - Picasa
 - PhotoScape X
 - Rescue Time
@@ -42,6 +43,7 @@ OSX Setup
 - uTorrent
 - Virtual Box
 - VLC
+- Wineskin
 - Wunderlist
 - Xcode
 
