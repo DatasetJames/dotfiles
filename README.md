@@ -288,3 +288,6 @@ Copy Dropbox/Sync/WorkBench to ~/kopplin/Library/Application Support/MySQL
 
 Sublime Text 3
 https://github.com/sergiokopplin/sublime-configs
+
+Run dotfiles
+https://github.com/zenorocha/dotfiles
