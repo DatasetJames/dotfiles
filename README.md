@@ -284,3 +284,6 @@ Copy Dropbox/Sync/Filezilla to ~/kopplin/.config/filezilla
 
 MySqlWorkBench
 Copy Dropbox/Sync/WorkBench to ~/kopplin/Library/Application Support/MySQL
+
+Sublime Text 3
+https://github.com/sergiokopplin/sublime-configs
