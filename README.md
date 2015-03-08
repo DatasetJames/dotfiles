@@ -78,6 +78,7 @@ brew cask install steam
 brew cask install sublime-text
 brew cask install the-unarchiver
 brew cask install utorrent
+brew cask install vagrant
 brew cask install virtualbox
 brew cask install vlc
 
