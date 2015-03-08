@@ -67,6 +67,7 @@ brew cask install imageoptim
 brew cask install iterm2
 brew cask install microsoft-office
 brew cask install mysqlworkbench
+brew cask install ngrok
 brew cask install origin
 brew cask install picasa
 brew cask install rescuetime
@@ -105,7 +106,6 @@ brew cask install vlc
  - Droplink - https://dl.dropboxusercontent.com/u/1242195/DropLink/welcome.html
  - Xbox 360 Controller - https://www.macupdate.com/app/mac/24762/xbox-360-controller-driver/download
  - NTFS free - http://sourceforge.net/projects/ntfsfree/files/NTFS-free-10.8.2.pkg/download
- - https://ngrok.com/
  - mysql
 
 ### 5. Borrow a few OSX settings from [mathiasbynens dotfiles](https://github.com/mathiasbynens/dotfiles)
