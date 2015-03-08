@@ -1,19 +1,5 @@
-FORKED - Setup Mac OS X Mountain Lion or Mavericks
+FORKED - Setup Mac OS X Yosemite
 =========================================
-
-**Edit:** I few months ago I got a new laptop and did the same thing on
-Mavericks.
-
-I just replaced the hard drive of my mbp and decided to do a clean install of
-Mountain Lion (10.8.5) since I was still using Snow Leopard (10.6.8).
-
-I kinda regret four not using [Boxen](http://boxen.github.com/) to automate the
-process, but TBH I have this laptop for almost 3yrs and this is the first
-time I needed to reinstall everything, maybe the next time...
-
-This gist is just a personal reference in case I need to do it all over again.
-**I'm by no means an OSX/*nix expert, use with care.**
-
 
 Setup
 -----
@@ -118,7 +104,7 @@ brew cask install vlc
  - Droplink - https://dl.dropboxusercontent.com/u/1242195/DropLink/welcome.html
  - Xbox 360 Controller - https://www.macupdate.com/app/mac/24762/xbox-360-controller-driver/download
  - NTFS free - http://sourceforge.net/projects/ntfsfree/files/NTFS-free-10.8.2.pkg/download
-
+ - https://ngrok.com/
 
 ### 5. Borrow a few OSX settings from [mathiasbynens dotfiles](https://github.com/mathiasbynens/dotfiles)
 
@@ -207,30 +193,6 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 source: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
 
-
-### 6. Create/Update `~/.bash_profile`
-
-```sh
-export PS1='\w \$ '
-
-set -o vi
-
-export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
-export NODE_PATH="/usr/local/lib/node_modules:$NODE_PATH"
-
-# https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
-if [ -f ~/.bash/git-completion.sh ]; then
-    source ~/.bash/git-completion.sh
-fi
-
-# `npm completion > ~/.bash/npm-completion.bash`
-if [ -f ~/.bash/npm-completion.sh ]; then
-    source ~/.bash/npm-completion.sh
-fi
-
-```
-
-
 ###  7. Create/Update `~/.gitconfig`
 
 You will need to set the user name and email (removed from .gitconfig to avoid
@@ -240,8 +202,6 @@ errors):
 git config --global user.name "Your Name Here"
 git config --global user.email youremail@example.com
 ```
-
-
 
 
 ### 9. Configure npm and generate SSH keys for github
@@ -254,25 +214,6 @@ npm adduser
 
 And also [generate SSH keys for github](https://help.github.com/articles/generating-ssh-keys)
 
-
-
-### 11. Download IE test VMs for VirtualBox
-
-these take a while to download! so maybe do it on a separate day as a
-background process...
-
-http://www.modern.ie/en-us/virtualization-tools
-
-```sh
-# IE8 XP
-curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE8_XP/IE8.XP.For.MacVirtualBox.ova"
-
-# IE9 Win7
-curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE9_Win7/IE9.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
-
-# IE10 Win8
-curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE10_Win8/IE10.Win8.For.MacVirtualBox.part{1.sfx,2.rar,3.rar}"
-```
 
 
 ### 12. Others
