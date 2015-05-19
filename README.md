@@ -51,26 +51,22 @@ brew install brew-cask
 # essential
 brew cask install alfred
 brew cask install android-file-transfer
-brew cask install battle-net
-brew cask install chrome-remote-desktop-host
 brew cask install dash
 brew cask install dropbox
 brew cask install evernote
 brew cask install fantastical
 brew cask install filezilla
-brew cask install firefox
-brew cask install flux
+brew cask install firefox d.e.
 brew cask install goofy
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install imageoptim
 brew cask install iterm2
+brew cask install mou
 brew cask install microsoft-office
 brew cask install mysqlworkbench
-brew cask install ngrok
-brew cask install origin
 brew cask install picasa
-brew cask install rescuetime
+brew cask install silverlight
 brew cask install skype
 brew cask install sparrow
 brew cask install spectacle
@@ -89,8 +85,6 @@ brew cask install vlc
 #### App Store
 
  - Byword
- - AMphetamine
- - Lightshot Screenshot
  - Leaf
  - Screen Replay
  - Photoscape X
@@ -99,6 +93,7 @@ brew cask install vlc
  - Keynote
  - Numbers
  - Pages
+ - Olive tree
 
 #### Manually
 
@@ -107,6 +102,8 @@ brew cask install vlc
  - Xbox 360 Controller - https://www.macupdate.com/app/mac/24762/xbox-360-controller-driver/download
  - NTFS free - http://sourceforge.net/projects/ntfsfree/files/NTFS-free-10.8.2.pkg/download
  - mysql
+ - pop-corn time
+ - tor browser
 
 ### 5. Borrow a few OSX settings from [mathiasbynens dotfiles](https://github.com/mathiasbynens/dotfiles)
 
@@ -120,16 +117,7 @@ brew cask install vlc
 
 #Install fonts from Google Drive folder
 
-#Sync Dropbox with Filezzila, MysqlWorkBench, .ssh, iterm2, oh-my-zsh
-
-
-###############################################################################
-# General UI/UX                                                               #
-###############################################################################
-
-# Menu bar: show remaining battery time (on pre-10.8); hide percentage
-defaults write com.apple.menuextra.battery ShowPercent -string "NO"
-defaults write com.apple.menuextra.battery ShowTime -string "YES"
+#Sync Dropbox with Filezzila, MysqlWorkBench, .ssh
 
 
 ###############################################################################
@@ -151,11 +139,6 @@ defaults write com.apple.finder QLEnableTextSelection -bool true
 # Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# Enable snap-to-grid for icons on the desktop and in other icon views
-/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
-/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
-
 
 ###############################################################################
 # Screen                                                                      #
@@ -171,42 +154,11 @@ defaults write com.apple.screencapture type -string "png"
 defaults write com.apple.screencapture disable-shadow -bool true
 
 
-###############################################################################
-# Address Book, Dashboard, iCal, TextEdit, and Disk Utility                   #
-###############################################################################
-
-# Use plain text mode for new TextEdit documents
-defaults write com.apple.TextEdit RichText -int 0
-# Open and save files as UTF-8 in TextEdit
-defaults write com.apple.TextEdit PlainTextEncoding -int 4
-defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
-
-
-###############################################################################
-# Time Machine                                                                #
-###############################################################################
-
-# Prevent Time Machine from prompting to use new hard drives as backup volume
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-
 
 ```
 
-source: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
-
-###  7. Create/Update `~/.gitconfig`
-
-You will need to set the user name and email (removed from .gitconfig to avoid
-errors):
-
-```sh
-git config --global user.name "Your Name Here"
-git config --global user.email youremail@example.com
-```
-
-
-### 9. Configure npm and generate SSH keys for github
+### Configure npm and generate SSH keys for github
 
 Need to set the npm user:
 
@@ -218,7 +170,7 @@ And also [generate SSH keys for github](https://help.github.com/articles/generat
 
 
 
-### 12. Others
+### Others
 
 Iterm2
 https://github.com/caiogondim/bullet-train-oh-my-zsh-theme
@@ -231,6 +183,3 @@ Copy Dropbox/Sync/WorkBench to ~/kopplin/Library/Application Support/MySQL
 
 Sublime Text 3
 https://github.com/sergiokopplin/sublime-configs
-
-Run dotfiles
-https://github.com/zenorocha/dotfiles
