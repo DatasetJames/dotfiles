@@ -139,3 +139,5 @@ Sincronizar:
 - Filezilla
 - WorkBench
 - iTerm2
+
+Configurar Alfred Workflows: https://github.com/zenorocha/alfred-workflows
