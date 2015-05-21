@@ -54,7 +54,6 @@ brew cask install android-file-transfer &&
 brew cask install dash &&
 brew cask install dropbox &&
 brew cask install evernote &&
-brew cask install fantastical && 
 brew cask install filezilla &&
 brew cask install goofy &&
 brew cask install google-chrome &&
@@ -103,8 +102,9 @@ brew cask install vlc
  - Xbox 360 Controller - https://www.macupdate.com/app/mac/24762/xbox-360-controller-driver/download
  - NTFS free - http://sourceforge.net/projects/ntfsfree/files/NTFS-free-10.8.2.pkg/download
  - MySql - http://dev.mysql.com/downloads/mysql/
- - pop-corn time
- - tor browser
+ - Fantastical 1 - http://upload.mamulti.com.br/pZygQYeuA
+ - Popcorn Time - https://popcorntime.io/
+ - Tor - https://www.torproject.org/download/download
 
 ### 5. Borrow a few OSX settings from [mathiasbynens dotfiles](https://github.com/mathiasbynens/dotfiles)
 
