@@ -129,16 +129,13 @@ Adicionando ssh
 Source: 'dropbox/.ssh'
 
 
-### 8. Configurações de outros programas
+### 8. Etc.
 
-Iterm2
-https://github.com/caiogondim/bullet-train-oh-my-zsh-theme
+Configurar Sublime: https://github.com/sergiokopplin/sublime-configs
 
-Filezilla
-Copy Dropbox/Sync/Filezilla to ~/kopplin/.config/filezilla
+Instalar Fontes: Drive.
 
-MySqlWorkBench
-Copy Dropbox/Sync/WorkBench to ~/kopplin/Library/Application Support/MySQL
-
-Sublime Text 3
-https://github.com/sergiokopplin/sublime-configs
+Sincronizar:
+- Filezilla
+- WorkBench
+- iTerm2
