@@ -55,6 +55,7 @@ brew cask install dash &&
 brew cask install dropbox &&
 brew cask install evernote &&
 brew cask install filezilla &&
+brew cask install flash-player &&
 brew cask install goofy &&
 brew cask install google-chrome &&
 brew cask install google-drive &&
@@ -78,6 +79,7 @@ brew cask install vlc
 
 #### Instalando pela App Store
 
+ - Last Password
  - Byword
  - Leaf
  - Screen Replay
@@ -130,12 +132,6 @@ defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
-# Finder: show status bar
-defaults write com.apple.finder ShowStatusBar -bool true
-
-# Finder: allow text selection in Quick Look
-defaults write com.apple.finder QLEnableTextSelection -bool true
 
 # Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
