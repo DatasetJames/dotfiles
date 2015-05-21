@@ -113,63 +113,23 @@ brew cask install vlc
 ### 6. Alterando outras configurações do sistema
 
 
-```sh
-###############################################################################
-# MISC                                                                      #
-###############################################################################
-
-#Disable Spotlight shortcut, then add the Alfred
-
-#Install fonts from Google Drive folder
-
-#Sync Dropbox with Filezzila, MysqlWorkBench, .ssh
+dotFiles: https://github.com/sergiokopplin/dotfiles
 
 
-###############################################################################
-# Finder                                                                      #
-###############################################################################
+### 7. Outras configurações
 
-# Finder: show hidden files by default
-defaults write com.apple.finder AppleShowAllFiles -bool true
-
-# Finder: show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
-# Disable the warning when changing a file extension
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
-
-
-###############################################################################
-# Screen                                                                      #
-###############################################################################
-
-# Save screenshots to the desktop
-defaults write com.apple.screencapture location -string "$HOME/Desktop"
-
-# Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
-defaults write com.apple.screencapture type -string "png"
-
-# Disable shadow in screenshots
-defaults write com.apple.screencapture disable-shadow -bool true
-
-
-
-```
-
-
-### Configure npm and generate SSH keys for github
-
-Need to set the npm user:
+Setando usuário NPM:
 
 ```sh
 npm adduser
 ```
 
-And also [generate SSH keys for github](https://help.github.com/articles/generating-ssh-keys)
+Adicionando ssh
+
+Source: 'dropbox/.ssh'
 
 
-
-### Others
+### 8. Configurações de outros programas
 
 Iterm2
 https://github.com/caiogondim/bullet-train-oh-my-zsh-theme
