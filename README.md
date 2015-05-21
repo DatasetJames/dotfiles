@@ -39,7 +39,7 @@ brew install node
 
 ### 5. Instalar Softwares Diversos
 
-#### homebrew-cask
+#### Instalando pelo homebrew-cask
 
 Alguns softwares podem ser instalados com o [homebrew-cask](https://github.com/phinze/homebrew-cask), e isso torna a tarefa bem mais fácil :sunglasses::
 
@@ -77,7 +77,7 @@ brew cask install vlc
 
 ```
 
-#### App Store
+#### Instalando pela App Store
 
  - Byword
  - Leaf
@@ -93,16 +93,16 @@ brew cask install vlc
  - Garage Band
  - OSX Yosemite
 
-#### Manually
+#### Instalando manualmente
 
- - sublime text 3
- - sparrow
- - firefox developer edition
+ - Sublime Text 3: http://www.sublimetext.com/3
+ - Sparrow: http://upload.mamulti.com.br/qqaKQeqJy
+ - Firefox Developer Edition: https://www.mozilla.org/en-US/firefox/developer/
  - Adobe Suite (Photoshop, Illustrator, ...)
  - Droplink - https://dl.dropboxusercontent.com/u/1242195/DropLink/welcome.html
  - Xbox 360 Controller - https://www.macupdate.com/app/mac/24762/xbox-360-controller-driver/download
  - NTFS free - http://sourceforge.net/projects/ntfsfree/files/NTFS-free-10.8.2.pkg/download
- - mysql
+ - MySql - http://dev.mysql.com/downloads/mysql/
  - pop-corn time
  - tor browser
 
