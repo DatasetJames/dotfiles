@@ -141,3 +141,7 @@ Sincronizar:
 - iTerm2
 
 Configurar Alfred Workflows: https://github.com/zenorocha/alfred-workflows
+
+Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
+
+
