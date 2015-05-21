@@ -15,7 +15,7 @@ Tenha certeza de que tudo está atualizado.
 
 ### 2. Altere as configurações básicas 
 
-System Preferences...
+Apple -> "System Preferences"
 
 
 ### 3. Instalar o Xcode
@@ -23,65 +23,57 @@ System Preferences...
 Xcode pode ser achado na AppStore.
 
 
-### 4. Instalar o homebrew e o  'CLI tools'
+### 4. Instalar o homebrew e o 'CLI tools'
 
 http://brew.sh/
 
 ```sh
-# install homebrew
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+# instalar o homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install git
+# instalar programas adicionais
+brew install git &&
 brew install node
 
 ```
 
-
-### 4. Install softwares
-
+### 5. Instalar Softwares Diversos
 
 #### homebrew-cask
 
-Many softwares can be installed through
-[homebrew-cask](https://github.com/phinze/homebrew-cask) which makes the
-process way simpler:
+Alguns softwares podem ser instalados com o [homebrew-cask](https://github.com/phinze/homebrew-cask), e isso torna a tarefa bem mais fácil :sunglasses::
 
 ```sh
-# install homebrew-cask
+# instalar o próprio homebrew-cask
 brew tap phinze/homebrew-cask
 brew install brew-cask
 
-# essential
-brew cask install alfred
-brew cask install android-file-transfer
-brew cask install dash
-brew cask install dropbox
-brew cask install evernote
-brew cask install fantastical
-brew cask install filezilla
-brew cask install firefox d.e.
-brew cask install goofy
-brew cask install google-chrome
-brew cask install google-drive
-brew cask install imageoptim
-brew cask install iterm2
-brew cask install mou
-brew cask install microsoft-office
-brew cask install mysqlworkbench
-brew cask install picasa
-brew cask install silverlight
-brew cask install skype
-brew cask install sparrow
-brew cask install spectacle
-brew cask install spotify
-brew cask install steam
-brew cask install sublime-text
-brew cask install the-unarchiver
-brew cask install utorrent
-brew cask install vagrant
-brew cask install virtualbox
+# instalar os programas
+brew cask install alfred &&
+brew cask install android-file-transfer &&
+brew cask install dash &&
+brew cask install dropbox &&
+brew cask install evernote &&
+brew cask install fantastical && 
+brew cask install filezilla &&
+brew cask install goofy &&
+brew cask install google-chrome &&
+brew cask install google-drive &&
+brew cask install imageoptim &&
+brew cask install iterm2 &&
+brew cask install mou &&
+brew cask install microsoft-office &&
+brew cask install mysqlworkbench &&
+brew cask install picasa &&
+brew cask install silverlight &&
+brew cask install skype &&
+brew cask install spectacle &&
+brew cask install spotify &&
+brew cask install steam &&
+brew cask install the-unarchiver &&
+brew cask install utorrent &&
+brew cask install virtualbox &&
 brew cask install vlc
-
 
 ```
 
@@ -97,9 +89,15 @@ brew cask install vlc
  - Numbers
  - Pages
  - Olive tree
+ - iMovie
+ - Garage Band
+ - OSX Yosemite
 
 #### Manually
 
+ - sublime text 3
+ - sparrow
+ - firefox developer edition
  - Adobe Suite (Photoshop, Illustrator, ...)
  - Droplink - https://dl.dropboxusercontent.com/u/1242195/DropLink/welcome.html
  - Xbox 360 Controller - https://www.macupdate.com/app/mac/24762/xbox-360-controller-driver/download
