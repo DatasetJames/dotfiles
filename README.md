@@ -1,26 +1,29 @@
-FORKED - Setup Mac OS X Yosemite
+Instalação - Yosemite
 =========================================
 
-Setup
+Isso é só um documento que eu uso de vez em quando.
+
+Etapas
 -----
 
-### 1. Run software update
+Sérgio, siga essas etapas para obter o mac que você sempre usa.
 
-Make sure everything is up to date.
+### 1. Verifique as atualizações de sistema
 
-
-### 2. Install Xcode and/or "Command Line Tools"
-
-"Command Line Tools" can be downloaded separate from Xcode at
-https://developer.apple.com/downloads/ - It is way smaller than installing the
-whole Xcode but might not work for all cases tho.
-
-Xcode can be found on App Store. **preferred**
-
-More info on [how to download Command Line Tools inside XCode can be found on StackOverflow](http://stackoverflow.com/questions/9329243/xcode-4-4-and-later-install-command-line-tools)
+Tenha certeza de que tudo está atualizado.
 
 
-### 3. Install homebrew and CLI tools
+### 2. Altere as configurações básicas 
+
+System Preferences...
+
+
+### 3. Instalar o Xcode
+
+Xcode pode ser achado na AppStore.
+
+
+### 4. Instalar o homebrew e o  'CLI tools'
 
 http://brew.sh/
 
