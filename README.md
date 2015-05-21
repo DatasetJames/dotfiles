@@ -79,6 +79,7 @@ brew cask install vlc
 
 #### Instalando pela App Store
 
+ - Caffeine
  - Last Password
  - Byword
  - Leaf
@@ -108,7 +109,8 @@ brew cask install vlc
  - Popcorn Time - https://popcorntime.io/
  - Tor - https://www.torproject.org/download/download
 
-### 5. Borrow a few OSX settings from [mathiasbynens dotfiles](https://github.com/mathiasbynens/dotfiles)
+
+### 6. Alterando outras configurações do sistema
 
 
 ```sh
