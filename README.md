@@ -118,8 +118,6 @@ dotFiles: https://github.com/sergiokopplin/dotfiles
 
 ### 7. Outras configurações
 
-Sincronizar ssh.
-
 Configurar Sublime: https://github.com/sergiokopplin/sublime-configs.
 
 Instalar Fontes: Drive.
@@ -131,6 +129,8 @@ Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
 Configurar Alfred Workflows: https://github.com/zenorocha/alfred-workflows.
 
 Sincronizar:
-- Filezilla
-- WorkBench
+- filezilla
+- workBench
+- ssh
+- oh-my-zsh
 
