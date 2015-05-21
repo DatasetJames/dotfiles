@@ -118,30 +118,19 @@ dotFiles: https://github.com/sergiokopplin/dotfiles
 
 ### 7. Outras configurações
 
-Setando usuário NPM:
+Sincronizar ssh.
 
-```sh
-npm adduser
-```
-
-Adicionando ssh
-
-Source: 'dropbox/.ssh'
-
-
-### 8. Etc.
-
-Configurar Sublime: https://github.com/sergiokopplin/sublime-configs
+Configurar Sublime: https://github.com/sergiokopplin/sublime-configs.
 
 Instalar Fontes: Drive.
+
+Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
+
+Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
+
+Configurar Alfred Workflows: https://github.com/zenorocha/alfred-workflows.
 
 Sincronizar:
 - Filezilla
 - WorkBench
-- iTerm2
-
-Configurar Alfred Workflows: https://github.com/zenorocha/alfred-workflows
-
-Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
-
 
