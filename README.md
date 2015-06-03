@@ -108,6 +108,7 @@ brew cask install vlc
  - Fantastical 1 - http://upload.mamulti.com.br/pZygQYeuA
  - Popcorn Time - https://popcorntime.io/
  - Tor - https://www.torproject.org/download/download
+ - Jekyll - http://jekyllrb.com/
 
 
 ### 6. Alterando outras configurações do sistema
