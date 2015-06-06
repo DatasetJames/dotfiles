@@ -119,7 +119,7 @@ dotFiles: ./OSX-Setup/dotfiles
 
 ### 7. Outras configurações
 
-Configurar Sublime: https://github.com/sergiokopplin/sublime-configs.
+Configurar Sublime: ./OSX-Setup/sublime
 
 Instalar Fontes: Drive.
 
@@ -134,4 +134,3 @@ Sincronizar:
 - workBench
 - ssh
 - oh-my-zsh
-
