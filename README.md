@@ -114,7 +114,7 @@ brew cask install vlc
 ### 6. Alterando outras configurações do sistema
 
 
-dotFiles: https://github.com/sergiokopplin/dotfiles
+dotFiles: ./OSX-Setup/dotfiles
 
 
 ### 7. Outras configurações
