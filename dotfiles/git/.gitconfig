@@ -1,0 +1,37 @@
+[user]
+    name = Sergio Kopplin
+    email = sergiokopplin@gmail.com
+
+[alias]
+    # https://git.wiki.kernel.org/articles/a/l/i/Aliases.html
+
+    # General
+    a = add .
+    c = commit -m
+    ca = commit -am
+    co = checkout
+    st = status
+    br = branch
+    ul = rm --cached
+    re = rm -r
+    rt = remote add
+    rtv = remote -v
+    rtr = remote rm
+    ps = push
+    pl = pull
+    mg = merge
+
+    # Others
+    psm = push origin master
+    psum = push -u origin master
+    pl = pull origin master
+    ghpage = checkout --orphan gh-pages
+    type = cat-file -t
+    dump = cat-file -p
+    undo = reset --soft HEAD~1
+
+[core]
+    # Use custom `.gitignore` and `.gitattributes`
+    excludesfile = ~/.gitignore
+    attributesfile = ~/.gitattributes
+    editor = subl -W -n
