@@ -121,7 +121,7 @@ dotFiles: ./OSX-Setup/dotfiles
 
 Configurar Sublime: ./OSX-Setup/sublime
 
-Configurar Atin: ./OSX-Setup/atom
+Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
 
 Instalar Fontes: Drive.
 
