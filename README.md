@@ -121,6 +121,8 @@ dotFiles: ./OSX-Setup/dotfiles
 
 Configurar Sublime: ./OSX-Setup/sublime
 
+Configurar Atin: ./OSX-Setup/atom
+
 Instalar Fontes: Drive.
 
 Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
