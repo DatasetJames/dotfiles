@@ -51,6 +51,7 @@ brew install brew-cask
 # instalar os programas
 brew cask install alfred &&
 brew cask install android-file-transfer &&
+brew cask install atom &&
 brew cask install dash &&
 brew cask install dropbox &&
 brew cask install evernote &&
