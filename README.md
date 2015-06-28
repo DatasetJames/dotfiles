@@ -62,6 +62,7 @@ brew cask install google-chrome &&
 brew cask install google-drive &&
 brew cask install imageoptim &&
 brew cask install iterm2 &&
+brew cask install lastpass &&
 brew cask install mou &&
 brew cask install microsoft-office &&
 brew cask install mysqlworkbench &&
