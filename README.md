@@ -62,13 +62,13 @@ brew cask install google-chrome &&
 brew cask install google-drive &&
 brew cask install imageoptim &&
 brew cask install iterm2 &&
-brew cask install lastpass &&
 brew cask install mou &&
 brew cask install microsoft-office &&
 brew cask install mysqlworkbench &&
 brew cask install picasa &&
 brew cask install silverlight &&
 brew cask install skype &&
+brew cask install slack &&
 brew cask install spectacle &&
 brew cask install spotify &&
 brew cask install steam &&
