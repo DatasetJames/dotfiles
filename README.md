@@ -56,6 +56,7 @@ brew cask install dash &&
 brew cask install dropbox &&
 brew cask install evernote &&
 brew cask install filezilla &&
+brew cask install firefox &&
 brew cask install flash-player &&
 brew cask install goofy &&
 brew cask install google-chrome &&
