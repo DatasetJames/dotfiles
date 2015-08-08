@@ -49,9 +49,11 @@ brew tap phinze/homebrew-cask
 brew install brew-cask
 
 # instalar os programas
+brew cask install xbox360-controller-driver && 
 brew cask install alfred &&
 brew cask install android-file-transfer &&
 brew cask install atom &&
+brew cask install caffeine && 
 brew cask install dash &&
 brew cask install dropbox &&
 brew cask install evernote &&
@@ -82,8 +84,6 @@ brew cask install vlc
 
 #### Instalando pela App Store
 
- - Caffeine
- - Last Password
  - Byword
  - Leaf
  - Screen Replay
@@ -105,7 +105,6 @@ brew cask install vlc
  - Firefox Developer Edition: https://www.mozilla.org/en-US/firefox/developer/
  - Adobe Suite (Photoshop, Illustrator, ...)
  - Droplink - https://dl.dropboxusercontent.com/u/1242195/DropLink/welcome.html
- - Xbox 360 Controller - https://www.macupdate.com/app/mac/24762/xbox-360-controller-driver/download
  - NTFS free - http://sourceforge.net/projects/ntfsfree/files/NTFS-free-10.8.2.pkg/download
  - MySql - http://dev.mysql.com/downloads/mysql/
  - Fantastical 1 - http://upload.mamulti.com.br/pZygQYeuA
