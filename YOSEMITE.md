@@ -1,13 +1,6 @@
 Instalação - Yosemite
 =========================================
 
-Isso é só um documento que eu uso de vez em quando.
-
-Etapas
------
-
-Sérgio, siga essas etapas para obter o mac que você sempre usa.
-
 ### 1. Verifique as atualizações de sistema
 
 Tenha certeza de que tudo está atualizado.
