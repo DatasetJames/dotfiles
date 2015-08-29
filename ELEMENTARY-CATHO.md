@@ -120,8 +120,6 @@ $ curl -L http://install.ohmyz.sh | sh
 #Mudando padrão pra zsh
 $ chsh -s /bin/zsh
 
-$ sudo apt-get install inkscape
-
 $ sudo -E add-apt-repository ppa:zeal-developers/ppa
 $ sudo apt-get update
 $ sudo apt-get install zeal
@@ -135,8 +133,6 @@ $ sudo npm config set proxy http://user:pass@proxy.*****:8180
 $ sudo npm config set https-proxy http://user:pass@proxy.*****:8180
 
 $ sudo npm install -g gulp
-$ sudo npm install -g grunt-cli
-$ sudo npm install -g grunt
 
 # Jekyll
 $ sudo apt-get install ruby ruby-dev make gcc nodejs
@@ -166,8 +162,6 @@ Install Virtual Box vm's
 7, 8 and IE9
 ```
 
-Download [Vagrant](https://www.vagrantup.com/downloads.html)
-
 Download [NodeJS](https://nodejs.org/)
 
 Gitconfig
@@ -180,7 +174,5 @@ git config --global https.proxy https://proxyuser:proxypwd@proxy.server.com:8080
 
 Impressora: procurar por IP 
 172.16.241.12 e escolher configurações genéricas
-
-http://www.binarytides.com/better-elementary-os-luna/
 
 https://nathanhoad.net/how-to-meld-for-git-diffs-in-ubuntu-hardy
