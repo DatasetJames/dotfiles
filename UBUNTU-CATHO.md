@@ -44,6 +44,7 @@ Where [host]\[username] corresponds to your corporate network credentials e.g. m
 If your corporate network uses https then substitute http with https in the above terminal commands.
 ```
 
+http://ubuntu-tweak.com/
 
 
 Softwares to download and install:
