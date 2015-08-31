@@ -6,11 +6,8 @@ Softwares to download and install:
 - [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - [Spotify Offline Installer](http://repository.spotify.com/pool/non-free/s/spotify/)
 - [Mysql WorkBench](https://dev.mysql.com/downloads/file.php?id=457783)
-- [PHPStorm 9](http://blog.jetbrains.com/phpstorm/tag/phpstorm-9/)
 - Terminator [via Software Manager]
 - Virtual Box [via Software Manager]
-- Opera
-- Brackets
 
 Configs:
 - Chrome Logins [wunderlist, lastpass, evernote, proxies, bit.ly]
