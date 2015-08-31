@@ -1,4 +1,4 @@
-# Ubuntu Elementary
+# Ubuntu
 
 Softwares to download and install:
 - [Atom](https://atom.io/)
