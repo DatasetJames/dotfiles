@@ -9,7 +9,6 @@ Softwares to download and install:
 - [PHPStorm 9](http://blog.jetbrains.com/phpstorm/tag/phpstorm-9/)
 - Terminator [via Software Manager]
 - Virtual Box [via Software Manager]
-- LibreOffice [apt]
 - Opera
 - Brackets
 
