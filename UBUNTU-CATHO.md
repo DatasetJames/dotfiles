@@ -1,5 +1,31 @@
 # Ubuntu
 
+Proxy settings:
+```
+#Use terminal to open /etc/environment using a text edit app as superuser - e.g. in terminal type 
+$ sudo gedit /etc/environment (enter password when asked)
+
+#Add the following lines to the text document that appears, replacing myproxy.server.com with your proxy address
+
+http_proxy=http://user:pass@proxy.*****:8180/
+https_proxy=http://user:pass@proxy.*****:8180/
+ftp_proxy=http://user:pass@proxy.*****:8180/
+no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
+HTTP_PROXY=http://user:pass@proxy.*****:8180/
+HTTPS_PROXY=http://user:pass@proxy.*****:8180/
+FTP_PROXY=http://user:pass@proxy.*****:8180/
+NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com"
+
+# Save the file, then  navigate to /etc/apt/apt.conf.d/ and create a new file there named 95proxies and include the following code (remembering to add your own proxy address in place of myproxy.server.com)
+
+Acquire::http::proxy "http://user:pass@proxy.*****:8180/";
+Acquire::ftp::proxy "ftp://user:pass@proxy.*****:8180/";
+Acquire::https::proxy "https://user:pass@proxy.*****:8180/";
+
+#Reboot and once you have logged in you will find that your proxy settings are in place for Network Settings, apt-get and Update manager. It's a pain but it does give you an idea about using the command line in a Linux terminal.
+```
+
+
 Softwares to download and install:
 - [Atom](https://atom.io/)
 - [Sublime](http://www.sublimetext.com/3)
@@ -59,31 +85,6 @@ mastersite.devel : 3306 - LDAP username and pass
 #Produtos
 mysqlprodutos.devel : 3306 - LDAP username and pass
 ```
-- proxy settings:
-```
-#Use terminal to open /etc/environment using a text edit app as superuser - e.g. in terminal type 
-$ sudo gedit /etc/environment (enter password when asked)
-
-#Add the following lines to the text document that appears, replacing myproxy.server.com with your proxy address
-
-http_proxy=http://user:pass@proxy.*****:8180/
-https_proxy=http://user:pass@proxy.*****:8180/
-ftp_proxy=http://user:pass@proxy.*****:8180/
-no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
-HTTP_PROXY=http://user:pass@proxy.*****:8180/
-HTTPS_PROXY=http://user:pass@proxy.*****:8180/
-FTP_PROXY=http://user:pass@proxy.*****:8180/
-NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com"
-
-# Save the file, then  navigate to /etc/apt/apt.conf.d/ and create a new file there named 95proxies and include the following code (remembering to add your own proxy address in place of myproxy.server.com)
-
-Acquire::http::proxy "http://user:pass@proxy.*****:8180/";
-Acquire::ftp::proxy "ftp://user:pass@proxy.*****:8180/";
-Acquire::https::proxy "https://user:pass@proxy.*****:8180/";
-
-#Reboot and once you have logged in you will find that your proxy settings are in place for Network Settings, apt-get and Update manager. It's a pain but it does give you an idea about using the command line in a Linux terminal.
-```
-
 - Atom packages
 ```
 apm install atom-beautify autoclose-html autocomplete-paths autocomplete-sass color-picker docblockr dracula-theme dracula-ui editorconfig emmet file-icons gulp-snippets highlight-selected indent-guide-improved javascript-snippets jquery-snippets linter linter-csslint linter-js-yaml linter-jshint minimap pigments project-manager sync-settings tag
