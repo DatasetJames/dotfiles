@@ -47,8 +47,8 @@ If your corporate network uses https then substitute http with https in the abov
 http://ubuntu-tweak.com/
 
 
-Softwares to download and install:
-- [Synaptic](http://www.nongnu.org/synaptic/)
+Softwares to download and install, or install via ubuntu tweak:
+- Ubuntu Restricted Areas
 - [Atom](https://atom.io/)
 - [Sublime](http://www.sublimetext.com/3)
 - [Chrome](https://www.google.com/chrome/browser/desktop/index.html)
