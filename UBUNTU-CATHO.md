@@ -118,7 +118,7 @@ $ sudo nano /etc/fstab
 
 #colar dentro do arquivo
 //172.16.201.93/seu_user/public_html /mnt/svnweb5 cifs username=seu_user,password=sua_senha,uid=1000
-//svnweb.devel/seu_user /mnt/svn cifs username=sua_senha,password=sua_senha,uid=1000,gid=1000,nobrl,nounix
+//172.16.201.93/seu_user /mnt/svn cifs username=sua_senha,password=sua_senha,uid=1000,gid=1000,nobrl,nounix
 
 # Salvar arquivo
 
