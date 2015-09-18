@@ -23,30 +23,7 @@ Acquire::ftp::proxy "ftp://user:pass@proxy.*****:8180/";
 Acquire::https::proxy "https://user:pass@proxy.*****:8180/";
 
 #Reboot and once you have logged in you will find that your proxy settings are in place for Network Settings, apt-get and Update manager. It's a pain but it does give you an idea about using the command line in a Linux terminal.
-
-
-http://askubuntu.com/questions/186561/how-can-gnome-based-applications-such-as-rhythmbox-use-a-proxy
-sudo apt-get install dconf-tools
-First - set the proxy mode to manual as shown - System/proxy
-Second - set the proxy host & port. If you dont have an anonymous proxy you need to set the authentication-password and authentication-user values
-If your corporate network uses https then set the equivalent system - proxy - https tree values instead of system - proxy - http that is shown above.
-
-Via the terminal you can use the following:
-
-gsettings set org.gnome.system.proxy mode 'manual' 
-gsettings set org.gnome.system.proxy.http host 'proxy.askubuntu.com'
-gsettings set org.gnome.system.proxy.http port 8080
-gsettings set org.gnome.system.proxy.http authentication-user '[host]\[username]'
-gsettings set org.gnome.system.proxy.http authentication-password 'mypassword'
-
-Where [host]\[username] corresponds to your corporate network credentials e.g. mywindowsdomain\fossfreedom
-
-If your corporate network uses https then substitute http with https in the above terminal commands.
 ```
-
-http://ubuntu-tweak.com/
-
-
 Softwares to download and install, or install via ubuntu tweak:
 - Ubuntu Restricted Areas
 - [Atom](https://atom.io/)
@@ -138,10 +115,6 @@ $ curl -L http://install.ohmyz.sh | sh
 
 #Mudando padrão pra zsh
 $ chsh -s /bin/zsh
-
-$ sudo -E add-apt-repository ppa:zeal-developers/ppa
-$ sudo apt-get update
-$ sudo apt-get install zeal
 
 $ sudo apt-get install subversion
 
