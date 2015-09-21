@@ -109,12 +109,7 @@ $ sudo mount -a
 
 [Others](http://www.erikaheidi.com/blog/setting-up-a-development-machine-with-ubuntu-1404-trusty-tahr)
 ```
-$ sudo apt-get install vim curl
-
-$ sudo apt-get install subversion
-
-$ sudo apt-get install node
-$ sudo apt-get install npm
+$ sudo apt-get install vim curl subversion node npm ruby ruby-dev make gcc nodejs
 
 $ sudo npm config set proxy http://user:pass@proxy.*****:8180
 $ sudo npm config set https-proxy http://user:pass@proxy.*****:8180
@@ -122,7 +117,6 @@ $ sudo npm config set https-proxy http://user:pass@proxy.*****:8180
 $ sudo npm install -g gulp
 
 # Jekyll
-$ sudo apt-get install ruby ruby-dev make gcc nodejs
 $ sudo gem install jekyll --no-rdoc --no-ri
 $ sudo gem install --http-proxy http://user:pass@proxy.*****:8180 jekyll --no-rdoc --no-ri
 $ sudo gem install jekyll-sitemap --http-proxy=http://user:pass@proxy.*****:8180
