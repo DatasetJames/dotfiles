@@ -115,15 +115,7 @@ $ sudo npm config set https-proxy http://user:pass@proxy.*****:8180
 $ sudo npm install -g gulp
 
 # Jekyll
-$ sudo gem install jekyll --no-rdoc --no-ri
 $ sudo gem install --http-proxy http://user:pass@proxy.*****:8180 jekyll --no-rdoc --no-ri
-$ sudo gem install jekyll-sitemap --http-proxy=http://user:pass@proxy.*****:8180
-```
-
-Proxies - Chrome Extension
-```
-proxy.devel:8180
-devweb20vs.devel:8181
 ```
 
 Others
@@ -139,16 +131,6 @@ https://github.com/sergiokopplin/setup-catho/blob/master/config-terminator
 # VM
 Install Virtual Box vm's
 7, 8 and IE9
-```
-
-Download [NodeJS](https://nodejs.org/)
-
-Gitconfig
-```
-git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
-git config --global https.proxy https://proxyuser:proxypwd@proxy.server.com:8080
-
-#Caso não funciona (não vai funcionar), adicione o remote via HTTP que ele vai pedir user:pass
 ```
 
 Impressora: procurar por IP 
