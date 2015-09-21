@@ -20,7 +20,7 @@ Acquire::http::proxy "http://user:pass@proxy.*****:8180/";
 Acquire::ftp::proxy "ftp://user:pass@proxy.*****:8180/";
 Acquire::https::proxy "https://user:pass@proxy.*****:8180/";
 
-#Reboot and once you have logged in you will find that your proxy settings are in place for Network Settings, apt-get and Update manager. It's a pain but it does give you an idea about using the command line in a Linux terminal.
+#Reboot
 ```
 Softwares to download and install, or install via ubuntu tweak:
 - Ubuntu Restricted Areas
