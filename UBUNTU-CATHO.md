@@ -16,7 +16,7 @@ HTTPS_PROXY=http://user:pass@proxy.*****:8180/
 FTP_PROXY=http://user:pass@proxy.*****:8180/
 NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com"
 
-# Save the file, then  navigate to /etc/apt/apt.conf.d/ and create a new file there named 95proxies and include the following code (remembering to add your own proxy address in place of myproxy.server.com)
+# Save the file, then  navigate to /etc/apt/apt.conf and create a new file there named 95proxies and include the following code (remembering to add your own proxy address in place of myproxy.server.com)
 
 Acquire::http::proxy "http://user:pass@proxy.*****:8180/";
 Acquire::ftp::proxy "ftp://user:pass@proxy.*****:8180/";
