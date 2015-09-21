@@ -110,11 +110,6 @@ $ sudo mount -a
 [Others](http://www.erikaheidi.com/blog/setting-up-a-development-machine-with-ubuntu-1404-trusty-tahr)
 ```
 $ sudo apt-get install vim curl
-$ sudo apt-get install zsh
-$ curl -L http://install.ohmyz.sh | sh
-
-#Mudando padrão pra zsh
-$ chsh -s /bin/zsh
 
 $ sudo apt-get install subversion
 
