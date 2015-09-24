@@ -33,8 +33,6 @@ Softwares to download and install, or install via ubuntu tweak:
 - Virtual Box [via Software Manager]
 
 Configs:
-- Chrome Logins [wunderlist, lastpass, evernote, proxies, bit.ly]
-- Firefox Logins [wunderlist, lastpass, evernote, proxies, bit.ly]
 - Spotify Configs:
 ```
 proxy.*****:8180
@@ -71,7 +69,8 @@ $ ln -s ../../../conline/htdocs/inclusao inclusao
 $ ln -s ../../../conline/htdocs/inc inc
 
 # CHECKOUT
-svn co svn://svnsource.devel/home/svn/conline/htdocs/recrutador recrutador
+svn co svn://svnsource.devel/home/svn/conline/htdocs/classes classes
+svn co svn://svnsource.devel/home/svn/conline/htdocs/inclusao inclusao
 
 ```
 - Configurar Workbench
