@@ -47,7 +47,6 @@ brew cask install android-file-transfer &&
 brew cask install atom &&
 brew cask install caffeine &&
 brew cask install firefox &&
-brew cask install goofy &&
 brew cask install google-chrome &&
 brew cask install iterm2 &&
 brew cask install mysqlworkbench &&
@@ -66,13 +65,13 @@ brew cask install virtualbox
 #### Instalando manualmente
 
  - Sublime Text 3: http://www.sublimetext.com/3
- - Adobe Suite (Photoshop, Illustrator, ...)
- - MySql - http://dev.mysql.com/downloads/mysql/
+ - Adobe Suite (Photoshop)
  - Jekyll - http://jekyllrb.com/
-
+ - Google Canary
+ - Opera
+ - Firefox Developer Edition
 
 ### 6. Alterando outras configurações do sistema
-
 
 dotFiles: ./OSX-Setup/dotfiles
 
@@ -84,5 +83,3 @@ Configurar Sublime: ./OSX-Setup/sublime
 Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
 
 Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
-
-Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
