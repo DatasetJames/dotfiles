@@ -19,11 +19,14 @@ git clone https://github.com/verzola/.vimrc.git ~/git/vimrc
 # Cria link simbólico do .vimrc
 ln -s ~/git/vimrc/.vimrc ~/.vimrc
 
+# Cria a pasta de temas
+mkdir ~/.vim/colors/
+
 # Entra na pasta de temas
 cd ~/.vim/colors
 
 # Baixa o colorscheme itg_flat
-download https://raw.githubusercontent.com/cdmedia/itg_flat_vim/master/colors/itg_flat.vim
+download https://raw.githubusercontent.com/zenorocha/dracula-theme/master/vim/colors/dracula.vim
 
 # Instala os plugins
 vim +PluginInstall +qall
