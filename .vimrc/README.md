@@ -5,6 +5,4 @@ Meu .vimrc personalizado
 ```sh
 $ curl -L https://raw.githubusercontent.com/sergiokopplin/setups/master/.vimrc/install.sh | sh
 
-https://raw.githubusercontent.com/sergiokopplin/setups/master/.vimrc/install.sh
-
 #### forked from @verzola
