@@ -2,14 +2,14 @@
 
 The default programs are:
 
-- **Editor**: [Sublime][sublime] e [Atom][atom].
-- **Navegadores**: [Chrome][chrome], [Canary][canary], [Firefox][firefox], [Firefox Developer][developer], [Opera][opera] e Safari.
-- **Terminal**: [iTerm][iterm], [Terminator][terminator] ou [Cmder][cmder].
+- **Editor**: [Sublime][sublime] and [Atom][atom].
+- **Navegadores**: [Chrome][chrome], [Canary][canary], [Firefox][firefox], [Firefox Developer][developer], [Opera][opera] and Safari.
+- **Terminal**: [iTerm][iterm], [Terminator][terminator] or [Cmder][cmder].
 - **VM's**: [Virtual Box][virtualbox].
 - **Mysql**: [Workbench][workbench].
-- **Imagens**: [Photoshop CC][photoshop] e [Photoscape][photoscape].
+- **Imagens**: [Photoshop CC][photoshop] and [Photoscape][photoscape].
 - **Tarefas**: [Wunderlist][wunderlist].
-- **Chat**: [Whatschrome][extensions], [Chitchat][extensions], [Messenger][extensions] e [Slacky][extensions].
+- **Chat**: [Whatschrome][extensions], [Chitchat][extensions], [Messenger][extensions] and [Slacky][extensions].
 - **Agenda**: [Sunrise][sunrise].
 - **Música**: [Spotify][spotify]
 
@@ -18,8 +18,8 @@ The default programs are:
 [chrome]: https://www.google.com/chrome/browser/desktop/index.html
 [canary]: https://www.google.com.br/chrome/browser/canary.html
 [firefox]: https://www.mozilla.org/en-US/firefox/new/
-[developer]: https://www.mozilla.org/pt-BR/firefox/developer/
-[opera]: http://www.opera.com/pt-br
+[developer]: https://www.mozilla.org/en-US/firefox/developer/
+[opera]: http://www.opera.com/
 [iterm]: https://www.iterm2.com/
 [terminator]: http://gnometerminator.blogspot.com.br/p/introduction.html
 [cmder]: http://cmder.net/
