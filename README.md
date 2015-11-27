@@ -2,16 +2,16 @@
 
 The default programs are:
 
-- **Editor**: [Sublime][sublime] and [Atom][atom].
-- **Navegadores**: [Chrome][chrome], [Canary][canary], [Firefox][firefox], [Firefox Developer][developer], [Opera][opera] and Safari.
+- **Editors**: [Sublime][sublime] and [Atom][atom].
+- **Browsers**: [Chrome][chrome], [Canary][canary], [Firefox][firefox], [Firefox Developer][developer], [Opera][opera] and Safari.
 - **Terminal**: [iTerm][iterm], [Terminator][terminator] or [Cmder][cmder].
 - **VM's**: [Virtual Box][virtualbox].
 - **Mysql**: [Workbench][workbench].
-- **Imagens**: [Photoshop CC][photoshop] and [Photoscape][photoscape].
-- **Tarefas**: [Wunderlist][wunderlist].
+- **Images**: [Photoshop CC][photoshop] and [Photoscape][photoscape].
+- **Tasks**: [Wunderlist][wunderlist].
 - **Chat**: [Whatschrome][extensions], [Chitchat][extensions], [Messenger][extensions] and [Slacky][extensions].
-- **Agenda**: [Sunrise][sunrise].
-- **Música**: [Spotify][spotify]
+- **Calendar**: [Sunrise][sunrise].
+- **Music**: [Spotify][spotify]
 
 [sublime]: http://www.sublimetext.com/
 [atom]: https://atom.io/
