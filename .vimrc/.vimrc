@@ -8,7 +8,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
     " file tree aside
-    Plugin 'scrooloose/nerdtree
+    Plugin 'scrooloose/nerdtree'
     Plugin 'jistr/vim-nerdtree-tabs'
     " git for nerdtree
     Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -147,7 +147,7 @@ autocmd vimenter * NERDTree
 
 " Airline
     " Tema
-    let g:airline_theme = 'powerlineish'
+    let g:airline_theme = 'luna'
     " Habilita
     let g:airline#extensions#tabline#enabled = 1
     let g:airline_powerline_fonts = 1
