@@ -25,7 +25,7 @@ mkdir ~/.vim/colors/
 # Entra na pasta de temas
 cd ~/.vim/colors
 
-# Baixa o colorscheme itg_flat
+# Baixa o colorscheme dracula
 download https://raw.githubusercontent.com/zenorocha/dracula-theme/master/vim/colors/dracula.vim
 
 # Instala os plugins
