@@ -3,18 +3,9 @@ Instalação - Yosemite
 
 ### 1. Verifique as atualizações de sistema
 
-Tenha certeza de que tudo está atualizado.
-
-
 ### 2. Altere as configurações básicas 
 
-Apple -> "System Preferences"
-
-
 ### 3. Instalar o Xcode
-
-Xcode pode ser achado na AppStore.
-
 
 ### 4. Instalar o homebrew e o 'CLI tools'
 
@@ -42,26 +33,7 @@ brew tap phinze/homebrew-cask
 brew install brew-cask
 
 # instalar os programas
-brew cask install 
- xbox360-controller-driver 
- alfred
- android-file-transfer 
- atom
- dropbox
- firefox
- google-chrome
- google-drive
- imageoptim
- iterm2
- microsoft-office
- ntfs-free
- skype
- spectacle
- spotify
- steam
- the-unarchiver
- utorrent
- vlc
+brew cask install xbox360-controller-driver alfred android-file-transfer atom dropbox firefox google-chrome google-drive imageoptim iterm2 microsoft-office ntfs-free skype spectacle spotify steam the-unarchiver utorrent vlc
 ```
 
 #### Instalando pela App Store
@@ -80,6 +52,6 @@ dotFiles: ./OSX-Setup/dotfiles
 
 ### 7. Outras configurações
 
-Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
-Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
-Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
+ - Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
+ - Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
+ - Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
