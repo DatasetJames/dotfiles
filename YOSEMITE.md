@@ -62,7 +62,6 @@ brew cask install
  the-unarchiver
  utorrent
  vlc
-
 ```
 
 #### Instalando pela App Store
@@ -70,10 +69,6 @@ brew cask install
  - Byword
  - Photoscape X
  - Wunderlist
- - Keynote
- - Numbers
- - Pages
- - iMovie
 
 #### Instalando manualmente
 
