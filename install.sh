@@ -1,8 +1,5 @@
-# configs do sistema
+# configs
 sh osx.sh
-
-# softwares
-sh machines/el-captain.sh
 
 # configs vim
 sh vim.sh
