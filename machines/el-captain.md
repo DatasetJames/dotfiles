@@ -1,4 +1,4 @@
-Instalação - Yosemite
+Instalação - El Captain
 ---
 
 **Atualizar** Sistema e instalar **xcode**
