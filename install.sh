@@ -15,3 +15,6 @@ sh osx.sh
 
 # configs vim
 sh vim.sh
+
+# Restarting
+sudo shutdown -r now
