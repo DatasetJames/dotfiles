@@ -42,92 +42,49 @@ brew tap phinze/homebrew-cask
 brew install brew-cask
 
 # instalar os programas
-brew cask install xbox360-controller-driver && 
-brew cask install alfred &&
-brew cask install android-file-transfer &&
-brew cask install atom &&
-brew cask install caffeine && 
-brew cask install dash &&
-brew cask install dropbox &&
-brew cask install evernote &&
-brew cask install filezilla &&
-brew cask install firefox &&
-brew cask install flash-player &&
-brew cask install goofy &&
-brew cask install google-chrome &&
-brew cask install google-drive &&
-brew cask install imageoptim &&
-brew cask install iterm2 &&
-brew cask install mou &&
-brew cask install microsoft-office &&
-brew cask install mysqlworkbench &&
-brew cask install picasa &&
-brew cask install silverlight &&
-brew cask install skype &&
-brew cask install slack &&
-brew cask install spectacle &&
-brew cask install spotify &&
-brew cask install steam &&
-brew cask install the-unarchiver &&
-brew cask install utorrent &&
-brew cask install virtualbox &&
-brew cask install vlc
+brew cask install 
+ xbox360-controller-driver 
+ alfred
+ android-file-transfer 
+ atom
+ dropbox
+ firefox
+ google-chrome
+ google-drive
+ imageoptim
+ iterm2
+ microsoft-office
+ ntfs-free
+ skype
+ spectacle
+ spotify
+ steam
+ the-unarchiver
+ utorrent
+ vlc
 
 ```
 
 #### Instalando pela App Store
 
  - Byword
- - Leaf
- - Screen Replay
  - Photoscape X
  - Wunderlist
- - TweetDeck
  - Keynote
  - Numbers
  - Pages
- - Olive tree
  - iMovie
- - Garage Band
- - OSX Yosemite
 
 #### Instalando manualmente
 
- - Sublime Text 3: http://www.sublimetext.com/3
- - Sparrow: http://upload.mamulti.com.br/qqaKQeqJy
- - Firefox Developer Edition: https://www.mozilla.org/en-US/firefox/developer/
- - Adobe Suite (Photoshop, Illustrator, ...)
- - Droplink - https://dl.dropboxusercontent.com/u/1242195/DropLink/welcome.html
- - NTFS free - http://sourceforge.net/projects/ntfsfree/files/NTFS-free-10.8.2.pkg/download
- - MySql - http://dev.mysql.com/downloads/mysql/
- - Fantastical 1 - http://upload.mamulti.com.br/pZygQYeuA
- - Popcorn Time - https://popcorntime.io/
- - Tor - https://www.torproject.org/download/download
  - Jekyll - http://jekyllrb.com/
-
 
 ### 6. Alterando outras configurações do sistema
 
-
 dotFiles: ./OSX-Setup/dotfiles
-
 
 ### 7. Outras configurações
 
-Configurar Sublime: ./OSX-Setup/sublime
-
 Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
-
-Instalar Fontes: Drive.
-
 Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
-
 Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
-
-Configurar Alfred Workflows: https://github.com/zenorocha/alfred-workflows.
-
-Sincronizar:
-- filezilla
-- workBench
-- ssh
-- oh-my-zsh
