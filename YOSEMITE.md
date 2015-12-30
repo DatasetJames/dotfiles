@@ -1,47 +1,47 @@
 Instalação - Yosemite
 ---
 
-1. Atualizar Sistema
-2. Alterar configurações básicas 
-3. Instalar Xcode
-4. Instalar Homebrew
+**Atualizar** Sistema e instalar **xcode**
 
+Instalar demais softwares:
 ```sh
 # instalar o homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# instalar programas adicionais
+# git e node
 brew install git node
-```
 
-5. Instalar Outros
-```sh
-# instalar o próprio homebrew-cask
+# instalar homebrew-cask
 brew tap phinze/homebrew-cask
 brew install brew-cask
 
-# instalar os programas
+# instalar via cask
 brew cask install xbox360-controller-driver alfred android-file-transfer atom dropbox firefox google-chrome google-drive imageoptim iterm2 microsoft-office ntfs-free skype spectacle spotify steam the-unarchiver utorrent vlc
+
+# gulp globalmente
+npm install -g gulp
+
+# jekyll e dependências
+gem install jekyll github-pages
 ```
 
-6. Instalando pela App Store
+---
+
+Instalando pela App Store
 
 - Byword
 - Photoscape X
 - Wunderlist
 
-7. Instalando manualmente
+---
 
-```sh
-npm install -g gulp
-gem install jekyll github-pages
-```
-
-8. Alterando outras configurações do sistema
+Alterando outras configurações do sistema
 
 - dotFiles: ./OSX-Setup/dotfiles
 
-9. Outras configurações
+---
+
+Outras configurações
 
 - Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
 - Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
