@@ -31,13 +31,12 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ####
 # Instalando pela App Store
 
-- Byword
-- Photoscape X
-- Wunderlist
+# - Byword
+# - Photoscape X
+ #- Wunderlist
 
 ###
 # Configurando
 
-- [dotFiles](https://github.com/sergiokopplin/setups)
-- [Atom](https://gist.github.com/sergiokopplin/896adec9fa1e1930d556)
-- [Dracula](https://github.com/zenorocha/dracula-theme)
+# - [Atom](https://gist.github.com/sergiokopplin/896adec9fa1e1930d556)
+# - [Dracula](https://github.com/zenorocha/dracula-theme)
