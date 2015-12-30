@@ -23,6 +23,9 @@ npm install -g gulp
 
 # jekyll e dependências
 gem install jekyll github-pages
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ---
@@ -35,14 +38,8 @@ Instalando pela App Store
 
 ---
 
-Alterando outras configurações do sistema
+Configurando
 
-- dotFiles: ./OSX-Setup/dotfiles
-
----
-
-Outras configurações
-
-- Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
-- Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
-- Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
+- [dotFiles](https://github.com/sergiokopplin/setups)
+- [Atom](https://gist.github.com/sergiokopplin/896adec9fa1e1930d556)
+- [Dracula](https://github.com/zenorocha/dracula-theme)
