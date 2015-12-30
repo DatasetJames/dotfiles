@@ -1,85 +1,49 @@
 Instalação - Yosemite
-=========================================
+---
 
-### 1. Verifique as atualizações de sistema
+**Atualizar** Sistema e instalar **xcode**
 
-Tenha certeza de que tudo está atualizado.
-
-
-### 2. Altere as configurações básicas 
-
-Apple -> "System Preferences"
-
-
-### 3. Instalar o Xcode
-
-Xcode pode ser achado na AppStore.
-
-
-### 4. Instalar o homebrew e o 'CLI tools'
-
-http://brew.sh/
-
+Instalar demais softwares:
 ```sh
 # instalar o homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# instalar programas adicionais
-brew install git &&
-brew install node
+# git e node
+brew install git node
 
-```
-
-### 5. Instalar Softwares Diversos
-
-#### Instalando pelo homebrew-cask
-
-Alguns softwares podem ser instalados com o [homebrew-cask](https://github.com/phinze/homebrew-cask), e isso torna a tarefa bem mais fácil :sunglasses::
-
-```sh
-# instalar o próprio homebrew-cask
+# instalar homebrew-cask
 brew tap phinze/homebrew-cask
 brew install brew-cask
 
-# instalar os programas
-brew cask install alfred &&
-brew cask install android-file-transfer &&
-brew cask install atom &&
-brew cask install caffeine &&
-brew cask install firefox &&
-brew cask install google-chrome &&
-brew cask install iterm2 &&
-brew cask install mysqlworkbench &&
-brew cask install slack &&
-brew cask install spectacle &&
-brew cask install spotify &&
-brew cask install the-unarchiver &&
-brew cask install virtualbox
+# instalar via cask
+brew cask install xbox360-controller-driver alfred android-file-transfer atom dropbox firefox google-chrome google-drive imageoptim iterm2 mysqlworkbench ntfs-free slack skype spectacle spotify steam the-unarchiver utorrent virtualbox vlc
 
+# gulp globalmente
+npm install -g gulp
+
+# jekyll e dependências
+gem install jekyll github-pages
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# sublimetext.com/3
+
+# creative cloud
 ```
 
-#### Instalando pela App Store
+---
 
- - Wunderlist
+Instalando pela App Store
 
-#### Instalando manualmente
+- Byword
+- Photoscape X
+- Wunderlist
 
- - Sublime Text 3: http://www.sublimetext.com/3
- - Adobe Suite (Photoshop)
- - Jekyll - http://jekyllrb.com/
- - Google Canary
- - Opera
- - Firefox Developer Edition
+---
 
-### 6. Alterando outras configurações do sistema
+Configurando
 
-dotFiles: ./OSX-Setup/dotfiles
-
-
-### 7. Outras configurações
-
-Configurar Sublime: ./OSX-Setup/sublime
-
-Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
-
-Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
+- [dotFiles](https://github.com/sergiokopplin/setups)
+- [Atom](https://gist.github.com/sergiokopplin/896adec9fa1e1930d556)
+- [Dracula](https://github.com/zenorocha/dracula-theme)
