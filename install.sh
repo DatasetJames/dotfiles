@@ -10,4 +10,6 @@ download() {
     fi
 }
 
+sh osx.sh
+
 sh vim.sh
