@@ -24,24 +24,24 @@ brew install brew-cask
 brew cask install xbox360-controller-driver alfred android-file-transfer atom dropbox firefox google-chrome google-drive imageoptim iterm2 microsoft-office ntfs-free skype spectacle spotify steam the-unarchiver utorrent vlc
 ```
 
-#### Instalando pela App Store
+6. Instalando pela App Store
 
 - Byword
 - Photoscape X
 - Wunderlist
 
-#### Instalando manualmente
+7. Instalando manualmente
 
 ```sh
 npm install -g gulp
 gem install jekyll github-pages
 ```
 
-6. Alterando outras configurações do sistema
+8. Alterando outras configurações do sistema
 
 - dotFiles: ./OSX-Setup/dotfiles
 
-7. Outras configurações
+9. Outras configurações
 
 - Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
 - Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
