@@ -1,8 +1,6 @@
 # dotfiles
 # Forked: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
-```
-
 ###############################################################################
 # System                                                                      #
 ###############################################################################
@@ -269,4 +267,3 @@ hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 # Restarting
 sudo shutdown -r now
-```
