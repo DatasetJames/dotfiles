@@ -1,13 +1,16 @@
 Instalação - El Captain
+
 ---
 
 **Atualizar** Sistema e instalar **xcode**
+
 ---
 
 Instalar demais softwares:
 *consultar dotfiles*
 
 ---
+
 Instalando pela App Store
 
 - Byword
@@ -15,6 +18,7 @@ Instalando pela App Store
 - Wunderlist
 
 ---
+
 Configurando
 
 - [Atom](https://gist.github.com/sergiokopplin/896adec9fa1e1930d556)
