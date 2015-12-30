@@ -1,15 +1,19 @@
 Instalação - El Captain
 ---
+
 **Atualizar** Sistema e instalar **xcode**
 ---
+
 Instalar demais softwares:
-***consultar dotfiles***
+*consultar dotfiles*
+
 ---
 Instalando pela App Store
 
 - Byword
 - Photoscape X
 - Wunderlist
+
 ---
 Configurando
 
