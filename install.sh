@@ -18,10 +18,7 @@ download() {
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # Baixa o .vimrc
-git clone https://github.com/verzola/.vimrc.git ~/git/vimrc
-
-# Cria link simbólico do .vimrc
-ln -s ~/git/vimrc/.vimrc ~/.vimrc
+download https://raw.githubusercontent.com/sergiokopplin/setups/master/.vimrc ~/.vimrc
 
 # Cria a pasta de temas
 mkdir ~/.vim/colors/
@@ -37,7 +34,3 @@ vim +PluginInstall +qall
 
 # Limpa o console
 clear
-
-########################################
-### fim/vim
-########################################
