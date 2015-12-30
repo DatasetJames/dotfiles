@@ -1,10 +1,9 @@
-Instalação - El Captain
----
+# Instalação - El Captain
 
-**Atualizar** Sistema e instalar **xcode**
+# **Atualizar** Sistema e instalar **xcode**
 
-Instalar demais softwares:
-```sh
+# Instalar demais softwares:
+
 # instalar o homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -28,19 +27,16 @@ gem install jekyll github-pages
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # sublimetext.com/3
-```
 
----
-
-Instalando pela App Store
+####
+# Instalando pela App Store
 
 - Byword
 - Photoscape X
 - Wunderlist
 
----
-
-Configurando
+###
+# Configurando
 
 - [dotFiles](https://github.com/sergiokopplin/setups)
 - [Atom](https://gist.github.com/sergiokopplin/896adec9fa1e1930d556)
