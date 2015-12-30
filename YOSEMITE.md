@@ -26,20 +26,23 @@ brew cask install xbox360-controller-driver alfred android-file-transfer atom dr
 
 #### Instalando pela App Store
 
- - Byword
- - Photoscape X
- - Wunderlist
+- Byword
+- Photoscape X
+- Wunderlist
 
 #### Instalando manualmente
 
- - Jekyll - http://jekyllrb.com/
+```sh
+npm install -g gulp
+gem install jekyll github-pages
+```
 
-### 6. Alterando outras configurações do sistema
+6. Alterando outras configurações do sistema
 
-dotFiles: ./OSX-Setup/dotfiles
+- dotFiles: ./OSX-Setup/dotfiles
 
-### 7. Outras configurações
+7. Outras configurações
 
- - Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
- - Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
- - Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
+- Configurar Atom: https://gist.github.com/sergiokopplin/896adec9fa1e1930d556
+- Instalar oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh
+- Adicionar Dracula no iTerm/Terminal: https://github.com/zenorocha/dracula-theme
