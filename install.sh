@@ -10,4 +10,4 @@ download() {
     fi
 }
 
-sh ./vim.sh
+sh vim.sh
