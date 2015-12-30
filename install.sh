@@ -10,6 +10,8 @@ download() {
     fi
 }
 
+# configs do sistema
 sh osx.sh
 
+# configs vim
 sh vim.sh
