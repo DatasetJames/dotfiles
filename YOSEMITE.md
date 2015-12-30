@@ -1,32 +1,20 @@
 Instalação - Yosemite
-=========================================
+---
 
-### 1. Verifique as atualizações de sistema
-
-### 2. Altere as configurações básicas 
-
-### 3. Instalar o Xcode
-
-### 4. Instalar o homebrew e o 'CLI tools'
-
-http://brew.sh/
+1. Atualizar Sistema
+2. Alterar configurações básicas 
+3. Instalar Xcode
+4. Instalar Homebrew
 
 ```sh
 # instalar o homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # instalar programas adicionais
-brew install git &&
-brew install node
-
+brew install git node
 ```
 
-### 5. Instalar Softwares Diversos
-
-#### Instalando pelo homebrew-cask
-
-Alguns softwares podem ser instalados com o [homebrew-cask](https://github.com/phinze/homebrew-cask), e isso torna a tarefa bem mais fácil :sunglasses::
-
+5. Instalar Outros
 ```sh
 # instalar o próprio homebrew-cask
 brew tap phinze/homebrew-cask
