@@ -4,12 +4,6 @@ Instalador OSX
 
 ---
 
-```sh
-git clone https://github.com/sergiokopplin/setups ~/setup && cd ~/setup && sh install.sh;
-```
-
----
-
 App Store
 
 - Byword, Photoscape X e Wunderlist
