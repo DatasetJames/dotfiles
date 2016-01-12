@@ -14,7 +14,7 @@ brew tap phinze/homebrew-cask
 brew install brew-cask
 
 # instalar via cask
-brew cask install xbox360-controller-driver alfred android-file-transfer atom dropbox firefox google-chrome google-drive imageoptim iterm2 microsoft-office ntfs-free skype spectacle spotify steam the-unarchiver utorrent vlc
+brew cask install dash xbox360-controller-driver alfred android-file-transfer atom dropbox firefox google-chrome google-drive imageoptim iterm2 microsoft-office ntfs-free skype spectacle spotify steam the-unarchiver utorrent vlc
 
 # gulp globalmente
 npm install -g gulp
