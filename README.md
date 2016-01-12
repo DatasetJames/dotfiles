@@ -6,7 +6,7 @@ Instalador OSX
 
 App Store
 
-- Byword, Photoscape X e Wunderlist
+- Byword e Photoscape X
 
 ---
 
