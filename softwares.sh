@@ -21,6 +21,8 @@ npm install -g gulp
 
 # jekyll e dependências
 gem install jekyll github-pages
+# if proxy
+sudo gem install --http-proxy http://user:pass@proxy.*****:8180 jekyll --no-rdoc --no-ri
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
