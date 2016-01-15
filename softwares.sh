@@ -6,6 +6,10 @@
 # instalar o homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# utils
+brew install coreutils moreutils findutils ccat
+brew install wget --enable-iri
+
 # git e node
 brew install git node
 
