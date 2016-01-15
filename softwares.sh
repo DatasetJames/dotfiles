@@ -10,8 +10,16 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install coreutils moreutils findutils ccat
 brew install wget --enable-iri
 
-# emacs
-http://emacsformacosx.com/
+# Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql suspicious-package && qlmanage -r
+
+# Spacemacs
+brew tap railwaycat/emacsmacport
+brew install emacs-mac --with-spacemacs-icon
+git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
+# Link Cask Apps to Alfred
+brew cask alfred link
 
 # git e node
 brew install git node
