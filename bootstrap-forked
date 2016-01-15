@@ -1,0 +1,76 @@
+# utils
+brew install coreutils
+brew install moreutils
+brew install findutils
+brew install wget --enable-iri
+brew install ccat
+
+# emacs
+brew tap railwaycat/emacsmacport
+brew install emacs-mac --with-spacemacs-icon
+
+#spacemacs
+git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
+# mac os x utils
+brew install homebrew/dupes/grep
+brew install homebrew/dupes/screen
+
+# fish
+brew install fish
+curl -L github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | sh
+omf theme l
+
+# cask
+brew install caskroom/cask/brew-cask
+
+# add formulae to homebrew
+brew tap caskroom/fonts
+
+# langs
+brew install node                                           # js/node
+brew install sbt                                            # scala
+brew install leiningen                                      # clojure
+brew install haskell-stack                                  # haskell
+brew install smlnj                                          # SML
+brew cask install racket                                    # racket
+brew cask install elm-platform                              # elm
+brew install purescript                                     # purescript
+
+# remove outdated versions from the cellar
+brew cleanup
+
+# browsers
+brew cask install firefox 2> /dev/null
+brew cask install google-chrome 2> /dev/null
+
+# dev apps
+brew cask install imagealpha 2> /dev/null
+brew cask install imageoptim 2> /dev/null
+
+# apps
+brew cask install caffeine 2> /dev/null
+brew cask install vlc 2> /dev/null
+brew cask install zipeg 2> /dev/null
+brew cask install shiftit 2> /dev/null
+brew cask install transmission 2> /dev/null
+brew cask install evernote 2> /dev/null
+brew cask install skitch 2> /dev/null
+brew cask install spotify 2> /dev/null
+
+# fonts
+brew cask install font-source-code-pro 2> /dev/null
+
+# front-end related stuff
+npm install -g jspm
+npm install -g bower
+npm install -g webpack
+npm install -g babel
+
+# js utility
+npm install -g fuck-you
+
+# symlink .files
+ln -s spacemacs ~/.spacemacs
+ln -s gitconfig ~/.gitconfig
+ln -s gitignore ~/.gitignore
