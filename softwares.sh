@@ -13,6 +13,7 @@ brew install brew-cask
 # utils
 brew install coreutils moreutils findutils ccat
 brew install wget --enable-iri
+brew install tree
 
 # Spacemacs
 brew tap railwaycat/emacsmacport
