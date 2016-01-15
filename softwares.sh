@@ -11,12 +11,7 @@ brew install coreutils moreutils findutils ccat
 brew install wget --enable-iri
 
 # emacs
-brew tap railwaycat/emacsmacport
-brew install emacs-mac --with-spacemacs-icon
-
-#spacemacs
-git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d
-brew linkapps
+http://emacsformacosx.com/
 
 # git e node
 brew install git node
