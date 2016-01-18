@@ -19,6 +19,7 @@ brew install tree
 brew tap railwaycat/emacsmacport
 brew install emacs-mac --with-spacemacs-icon
 git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d
+brew linkapps
 
 # Link Cask Apps to Alfred
 brew cask alfred link
