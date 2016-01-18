@@ -36,6 +36,8 @@ brew cask install dash xbox360-controller-driver alfred android-file-transfer at
 
 # gulp globalmente
 npm install -g gulp
+# for spacemacs javascript
+npm install -g tern js-beautify jshint
 
 ###############################################################################
 
