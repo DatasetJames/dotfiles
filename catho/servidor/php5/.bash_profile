@@ -1,6 +1,6 @@
 #!/bin/bash
 PROXY_USER="sergiokopplin"
-PROXY_PASS="2655gd"
+PROXY_PASS="***"
 
 export http_proxy=http://$PROXY_USER:$PROXY_PASS@proxy.devel:8180
 export https_proxy=http://$PROXY_USER:$PROXY_PASS@proxy.devel:8180
