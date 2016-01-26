@@ -50,3 +50,4 @@ gem install jekyll github-pages
 sudo gem install --http-proxy http://user:pass@proxy.*****:8180 github-pages bundler rake pygments.rb jekyll html-proofer jemoji jekyll-mentions jekyll-seo-tag jekyll-feed jekyll-sitemap jekyll-gist --no-rdoc --no-ri
 
 # mongo db
+brew install mongodb
