@@ -19,6 +19,7 @@ brew install wget --enable-iri
 brew install tree
 
 # Spacemacs
+http://emacsformacosx.com/
 brew tap railwaycat/emacsmacport
 brew install emacs-mac --with-spacemacs-icon
 git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d
