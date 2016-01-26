@@ -4,9 +4,13 @@ Instalador OSX
 
 ---
 
-App Store
-
-- Byword e Photoscape X
+Configurações e Downloads:
+- [osx](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/catho.sh)
+- [softwares](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/softwares.sh)
+- [vim](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/vim.sh)
+- [.vimrc](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.vimrc.sh)
+- [.gitignore](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.gitignore.sh)
+- [.gitconfig](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.gitconfig.sh)
 
 ---
 
@@ -16,3 +20,9 @@ Configurando
 - [Dracula](https://github.com/zenorocha/dracula-theme)
 - [Sublime](https://gist.github.com/sergiokopplin/f393ac99fdb2d123e9f6)
 - [Bullet Train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme)
+
+---
+
+App Store
+
+- Byword e Photoscape X
