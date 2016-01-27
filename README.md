@@ -7,11 +7,11 @@ Instalador OSX
 Configurações e Downloads:
 - [osx](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/catho.sh)
 - [softwares](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/softwares.sh)
-- [spacemacs](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/spacemacs.sh)
+- [spacemacs](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.spacemacs)
 - [vim](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/vim.sh)
-- [.vimrc](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.vimrc.sh)
-- [.gitignore](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.gitignore.sh)
-- [.gitconfig](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.gitconfig.sh)
+- [.vimrc](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.vimrc)
+- [.gitignore](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.gitignore)
+- [.gitconfig](https://raw.githubusercontent.com/sergiokopplin/dotfiles/master/.gitconfig)
 
 ---
 
