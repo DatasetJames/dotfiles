@@ -54,4 +54,4 @@ brew install mongodb
 npm install -g mongo-hacker
 
 # meld
-brew install homebrew/x11/meld
+
