@@ -15,12 +15,10 @@ WHITE="\[\033[0;37m\]"
 WHITEBOLD="\[\033[1;37m\]"
 
 PROXY_USER="sergiokopplin"
-PROXY_PASS="***"
-
-SERVER="svnweb4"
+PROXY_PASS="2655gd"
 
 export http_proxy=http://$PROXY_USER:$PROXY_PASS@proxy.devel:8180
 export https_proxy=http://$PROXY_USER:$PROXY_PASS@proxy.devel:8180
 export no_proxy=gitlab.devel
 
-export PS1="\n$YELLOW$SERVER$WHITEBOLD in $GREEN\w \n$WHITEλ "
+export PS1="\n$YELLOW\h4$WHITEBOLD in $GREEN\w \n$WHITE$ "
