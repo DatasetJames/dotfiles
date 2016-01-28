@@ -30,8 +30,6 @@ Plugin 'VundleVim/Vundle.vim'
     Plugin 'Townk/vim-autoclose'
     " Comentarios rapidos
     Plugin 'scrooloose/nerdcommenter'
-    " Autocomplete
-    Plugin 'Shougo/neocomplete.vim'
 " Vundle:
 call vundle#end()
 filetype plugin indent on
