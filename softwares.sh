@@ -52,3 +52,6 @@ sudo gem install --http-proxy http://user:pass@proxy.*****:8180 github-pages bun
 # mongo db
 brew install mongodb
 npm install -g mongo-hacker
+
+# meld
+brew install homebrew/x11/meld
