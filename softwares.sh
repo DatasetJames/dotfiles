@@ -52,3 +52,4 @@ sudo gem install --http-proxy http://user:pass@proxy.*****:8180 github-pages bun
 # bemean
 brew install mongodb
 npm install -g mongo-hacker nodemon
+postman for chrome
