@@ -16,9 +16,4 @@ pigments
 project-manager
 set-syntax
 trailing-spaces
-linter
-linter-jshint
-linter-stylint
-linter-php
-linter-jsonlint
-linter-csslint
+jshint
