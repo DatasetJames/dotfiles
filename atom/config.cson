@@ -1,0 +1,13 @@
+
+"*":
+  core:
+    closeEmptyWindows: false
+    themes: [
+      "dracula-ui"
+      "dracula-theme"
+    ]
+  editor:
+    fontFamily: "Monaco"
+    tabLength: 4
+  welcome:
+    showOnStartup: false
