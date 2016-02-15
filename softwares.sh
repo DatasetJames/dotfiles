@@ -85,3 +85,6 @@ sudo gem install $jekyllinstall --http-proxy http://user:pass@proxy.*****:8180 -
 brew install mongodb
 npm install -g mongo-hacker nodemon
 postman for chrome
+
+# better vim 
+brew install vim --override-system-vi
