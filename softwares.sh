@@ -25,6 +25,7 @@ brew cask alfred link
 # quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql suspicious-package && qlmanage -r
 
+# cask
 toinstall=(
   "dash"
   "xbox360-controller-driver"
@@ -45,18 +46,38 @@ toinstall=(
   "vlc"
 )
 
-# cask
 brew cask install $toinstall
 
 # gulp
 npm install -g gulp
+
+# fancy diff
 npm install -g diff-so-fancy
+brew install gnu-sed
+git config --global color.diff-highlight.oldNormal "red bold"
+git config --global color.diff-highlight.oldHighlight "red bold 52"
+git config --global color.diff-highlight.newNormal "green bold"
+git config --global color.diff-highlight.newHighlight "green bold 22"
 
+# jekyll
+jekyllinstall=(
+  "github-pages"
+  "bundler"
+  "rake"
+  "pygments.rb"
+  "jekyll"
+  "html-proofer"
+  "jemoji"
+  "jekyll-mentions"
+  "jekyll-seo-tag"
+  "jekyll-feed"
+  "jekyll-sitemap"
+  "jekyll-gist"
+)
 
-# jekyll e dependências
-gem install jekyll github-pages
+gem install $jekyllinstall --no-rdoc --no-ri
 # if proxy
-sudo gem install --http-proxy http://user:pass@proxy.*****:8180 github-pages bundler rake pygments.rb jekyll html-proofer jemoji jekyll-mentions jekyll-seo-tag jekyll-feed jekyll-sitemap jekyll-gist --no-rdoc --no-ri
+sudo gem install $jekyllinstall --http-proxy http://user:pass@proxy.*****:8180 --no-rdoc --no-ri
 
 # bemean
 brew install mongodb
