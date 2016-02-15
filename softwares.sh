@@ -44,6 +44,7 @@ npm install -g gulp
 # for spacemacs javascript
 npm install -g tern js-beautify jshint
 
+
 # jekyll e dependências
 gem install jekyll github-pages
 # if proxy
