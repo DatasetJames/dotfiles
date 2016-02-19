@@ -88,3 +88,6 @@ postman for chrome
 
 # better vim 
 brew install vim --override-system-vi
+
+# for hackintosh
+https://gist.github.com/sergiokopplin/a129217149085348f463
