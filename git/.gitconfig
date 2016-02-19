@@ -26,6 +26,10 @@
 
     default = current
     
+[pull]
+
+    default = current
+    
 [merge]
 
     tool = opendiff
