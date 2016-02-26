@@ -1,53 +1,6 @@
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# homebrew-cask
-brew tap phinze/homebrew-cask
-brew install brew-cask
-
-# utils
-brew install coreutils moreutils findutils ccat
-brew install wget --enable-iri
-brew install tree
-brew install git node
-
-# spacemacs
-http://emacsformacosx.com/
-brew tap railwaycat/emacsmacport
-brew install emacs-mac --with-spacemacs-icon
-git clone --recursive https://github.com/syl20bnr/spacemacs ~/.emacs.d
-brew linkapps
-brew cask alfred link
-
-# quick look plugins (https://github.com/sindresorhus/quick-look-plugins)
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql suspicious-package && qlmanage -r
-
-# cask
-toinstall=(
-  "dash"
-  "xbox360-controller-driver"
-  "alfred"
-  "android-file-transfer"
-  "atom"
-  "firefox"
-  "google-chrome"
-  "imageoptim"
-  "iterm2"
-  "ntfs-free"
-  "skype"
-  "spectacle"
-  "spotify"
-  "steam"
-  "the-unarchiver"
-  "utorrent"
-  "vlc"
-)
-
-brew cask install $toinstall
-
 # gulp
 npm install -g gulp
 
@@ -82,12 +35,8 @@ gem install $jekyllinstall --no-rdoc --no-ri
 sudo gem install $jekyllinstall --http-proxy http://user:pass@proxy.*****:8180 --no-rdoc --no-ri
 
 # bemean
-brew install mongodb
 npm install -g mongo-hacker nodemon
 postman for chrome
-
-# better vim 
-brew install vim --override-system-vi
 
 # for hackintosh
 https://gist.github.com/sergiokopplin/a129217149085348f463
