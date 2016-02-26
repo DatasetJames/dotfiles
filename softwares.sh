@@ -95,3 +95,4 @@ https://gist.github.com/sergiokopplin/a129217149085348f463
 # rescuetime
 https://www.rescuetime.com/get_rescuetime
 
+npm install -g how2
