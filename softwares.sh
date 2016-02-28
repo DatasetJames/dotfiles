@@ -45,3 +45,5 @@ https://gist.github.com/sergiokopplin/a129217149085348f463
 https://www.rescuetime.com/get_rescuetime
 
 npm install -g how2
+
+npm install webpack -g
