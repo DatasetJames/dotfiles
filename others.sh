@@ -53,3 +53,5 @@ npm install webpack -g
 # bartender
 
 # https://www.mowglii.com/itsycal/
+
+https://github.com/paulyoung/Statusfy
