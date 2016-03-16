@@ -55,3 +55,5 @@ npm install webpack -g
 # https://www.mowglii.com/itsycal/
 
 https://github.com/paulyoung/Statusfy
+
+# dracula for sublime, atom, zsh and iterm
