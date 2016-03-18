@@ -17,3 +17,5 @@ project-manager
 set-syntax
 trailing-spaces
 jshint
+merge-conflicts
+travis-ci-status
