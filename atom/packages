@@ -19,3 +19,5 @@ trailing-spaces
 jshint
 merge-conflicts
 travis-ci-status
+package-sync-plus
+markdown-image-helper
