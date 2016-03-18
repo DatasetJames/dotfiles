@@ -57,3 +57,9 @@ npm install webpack -g
 https://github.com/paulyoung/Statusfy
 
 # dracula for sublime, atom, zsh and iterm
+
+https://justgetflux.com/news/pages/macquickstart/
+
+# dash
+
+# airmail
