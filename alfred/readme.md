@@ -3,4 +3,4 @@ workflows:
 
 ---
 
-![screenshot](./Screen Shot 2016-03-18 at 4.18.03 PM.png)
+![screenshot](./screen-shot.png)
