@@ -25,7 +25,6 @@ toinstall=(
   "google-chrome"
   "imageoptim"
   "iterm2"
-  "ntfs-free"
   "skype"
   "spectacle"
   "spotify"
