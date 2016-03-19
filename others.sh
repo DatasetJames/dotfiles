@@ -63,3 +63,5 @@ https://justgetflux.com/news/pages/macquickstart/
 # dash
 
 # airmail
+
+# stremio
