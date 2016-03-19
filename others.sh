@@ -65,3 +65,5 @@ https://justgetflux.com/news/pages/macquickstart/
 # airmail
 
 # stremio
+
+# polaroid cube
