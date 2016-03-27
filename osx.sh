@@ -263,3 +263,8 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Disable local Time Machine backups
 hash tmutil &> /dev/null && sudo tmutil disablelocal
+
+### Others
+
+# Hidden files
+defaults write com.apple.finder AppleShowAllFiles YES
