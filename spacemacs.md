@@ -11,4 +11,6 @@ brew linkapps
 Note: after you have completed the install process below, it is also recommended to add the osx layer to your dotfile. Install instructions are available in the osx layer documentation.
 
 http://spacemacs.org/layers/osx/README
+
+brew install coreutils
 ```
