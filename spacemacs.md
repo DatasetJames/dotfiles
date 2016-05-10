@@ -16,6 +16,7 @@ brew install coreutils
 
 for proxy:
 
+´´´
 #.spacemacs
 dotspacemacs-elpa-https nil
 
@@ -28,3 +29,4 @@ dotspacemacs-elpa-https nil
     (list (list "proxy.company:8080"
         (cons "USERHERE"
               (base64-encode-string "USERHERE:PASS")))))
+´´´
