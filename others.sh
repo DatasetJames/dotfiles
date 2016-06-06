@@ -31,8 +31,6 @@ jekyllinstall=(
 )
 
 gem install $jekyllinstall --no-rdoc --no-ri
-# if proxy
-sudo gem install $jekyllinstall --http-proxy http://user:pass@proxy.*****:8180 --no-rdoc --no-ri
 
 # bemean
 npm install -g mongo-hacker nodemon
@@ -41,29 +39,11 @@ postman for chrome
 # for hackintosh
 https://gist.github.com/sergiokopplin/a129217149085348f463
 
-# rescuetime
-https://www.rescuetime.com/get_rescuetime
-
 # helpers
 npm install -g how2
 
-# study
-npm install webpack -g
-
-# bartender
-
-# https://www.mowglii.com/itsycal/
-
 https://github.com/paulyoung/Statusfy
-
-# dracula for sublime, atom, zsh and iterm
-
-https://justgetflux.com/news/pages/macquickstart/
 
 # dash
 
-# airmail
-
 # stremio
-
-# polaroid cube
