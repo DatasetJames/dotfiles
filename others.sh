@@ -44,6 +44,8 @@ npm install -g how2
 
 https://github.com/paulyoung/Statusfy
 
+https://github.com/tjunnone/npm-check-updates
+
 # dash
 
 # stremio
