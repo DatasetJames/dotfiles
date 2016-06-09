@@ -49,3 +49,5 @@ https://github.com/tjunnone/npm-check-updates
 # dash
 
 # stremio
+
+# deco ide
