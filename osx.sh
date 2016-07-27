@@ -5,6 +5,9 @@
 # System                                                                      #
 ###############################################################################
 
+# Remove animations
+defaults write -g NSWindowResizeTime -float 0.003
+
 # Set highlight color to green
 defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
