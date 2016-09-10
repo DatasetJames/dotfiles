@@ -4,23 +4,18 @@ brew tap phinze/homebrew-cask
 brew install brew-cask ccat git node wget
 
 # cask
-toinstall=(
-  "xbox360-controller-driver"
-  "alfred"
-  "android-file-transfer"
-  "atom"
-  "firefox"
-  "google-chrome"
-  "imageoptim"
-  "iterm2"
-  "skype"
-  "spectacle"
-  "spotify"
-  "steam"
-  "the-unarchiver"
-)
-
-brew cask install $toinstall
+brew cask install xbox360-controller-driver
+brew cask install alfred
+brew cask install android-file-transfer
+brew cask install atom
+brew cask install firefox
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install skype
+brew cask install spectacle
+brew cask install spotify
+brew cask install steam
+brew cask install the-unarchiver
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
