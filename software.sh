@@ -5,7 +5,6 @@ brew install brew-cask ccat git node wget
 
 # cask
 toinstall=(
-  "dash"
   "xbox360-controller-driver"
   "alfred"
   "android-file-transfer"
@@ -19,7 +18,6 @@ toinstall=(
   "spotify"
   "steam"
   "the-unarchiver"
-  "utorrent"
 )
 
 brew cask install $toinstall
