@@ -21,6 +21,8 @@ brew cask install the-unarchiver
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+npm install -g npm-check-updates
+
 # fancy diff
 npm install -g diff-so-fancy
 brew install gnu-sed
