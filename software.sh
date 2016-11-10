@@ -7,6 +7,7 @@ brew install brew-cask ccat git node wget
 brew cask install xbox360-controller-driver
 brew cask install alfred
 brew cask install android-file-transfer
+brew cask install visual-studio-code
 brew cask install atom
 brew cask install firefox
 brew cask install google-chrome
