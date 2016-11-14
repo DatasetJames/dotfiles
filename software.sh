@@ -23,6 +23,7 @@ brew cask install the-unarchiver
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 npm install -g npm-check-updates
+npm install -g hpm-cli
 
 # fancy diff
 npm install -g diff-so-fancy
