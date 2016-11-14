@@ -12,6 +12,7 @@ brew cask install atom
 brew cask install firefox
 brew cask install google-chrome
 brew cask install iterm2
+brew cask install hyper
 brew cask install skype
 brew cask install slack
 brew cask install spectacle
