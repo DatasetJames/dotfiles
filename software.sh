@@ -25,7 +25,7 @@ brew install zsh-syntax-highlighting
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 npm install -g npm-check-updates
-npm install -g hpm-cli
+npm install --global pure-prompt
 
 # fancy diff
 npm install -g diff-so-fancy
