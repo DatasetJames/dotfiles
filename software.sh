@@ -22,7 +22,7 @@ brew install zsh-syntax-highlighting
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # npm
-npm install -g npm-check-updates yarn node-static diff-so-fancy
+npm install -g npm-check-updates yarn node-static diff-so-fancy pure-prompt
 
 # fancy diff
 brew install gnu-sed
