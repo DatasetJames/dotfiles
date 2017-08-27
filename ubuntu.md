@@ -33,6 +33,7 @@ wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | s
 sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian precise contrib" >> /etc/apt/sources.list.d/virtualbox.list'
 sudo apt-get update
 sudo apt-get install virtualbox
+then remove from ppa list, it breakes the updater
 ```
 
 **vim**
