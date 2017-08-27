@@ -83,13 +83,6 @@ sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-**mutate**
-```
-sudo add-apt-repository ppa:mutate/ppa
-sudo apt-get update
-sudo apt-get install mutate
-```
-
 **spotify**
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886 0DF731E45CE24F27EEEB1450EFDC8610341D9410
@@ -101,6 +94,14 @@ sudo apt-get install spotify-client
 **slack**
 ```
 https://slack.com/downloads/instructions/ubuntu
+```
+
+**cairo**
+```
+sudo add-apt-repository ppa:cairo-dock-team/ppa
+sudo apt-get update
+sudo apt-get install cairo-dock cairo-dock-plug-ins
+
 ```
 
 ---
