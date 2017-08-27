@@ -119,3 +119,11 @@ download from https://github.com/gsantner/whatsie/releases
 - login lastpass
 - sync hyper
 - sync atom
+
+---
+
+**todo**
+- [ ] swap alt with ctrl
+- [ ] alfred
+- [ ] screen white/bright
+- [ ] swipe right/left on browser with 2 fingers
