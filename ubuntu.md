@@ -112,6 +112,13 @@ via skype download + dpkg -i
 download from https://github.com/gsantner/whatsie/releases
 ```
 
+**themes**
+```
+sudo apt-get install unity-tweak-tool
+install via dpkg -i https://github.com/anmoljagetia/Flatabulous
+choose theme on unity tweak
+```
+
 ---
 
 **others**
