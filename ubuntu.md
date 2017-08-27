@@ -96,12 +96,14 @@ sudo apt-get install spotify-client
 https://slack.com/downloads/instructions/ubuntu
 ```
 
-**cairo**
+**docky**
 ```
-sudo add-apt-repository ppa:cairo-dock-team/ppa
-sudo apt-get update
-sudo apt-get install cairo-dock cairo-dock-plug-ins
+via ubuntu software
+```
 
+**skype**
+```
+via skype download + dpkg -i
 ```
 
 ---
