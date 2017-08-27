@@ -117,3 +117,5 @@ download from https://github.com/gsantner/whatsie/releases
 **others**
 - login chrome
 - login lastpass
+- sync hyper
+- sync atom
