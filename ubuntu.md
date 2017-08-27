@@ -1,4 +1,4 @@
-**update your system**
+**update system**
 ```
 sudo apt-get update && sudo apt-get dist-upgrade
 ```
@@ -48,7 +48,7 @@ sudo apt-get update
 sudo apt-get install atom
 ```
 
-**hyper**
+**hyper (terminal)**
 ```
 sudo apt-get install gdebi
 wget https://hyper-updates.now.sh/download/linux_deb
@@ -73,12 +73,12 @@ sudo apt-get update
 sudo apt-get install -y docker-engine
 ```
 
-**cypress**
+**cypress (end2end)**
 ```
 sudo npm i -g cypress-cli && cypress install
 ```
 
-**zsh/oh-my-zsh**
+**zsh/oh-my-zsh (terminal)**
 ```
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -97,7 +97,7 @@ sudo apt-get install spotify-client
 https://slack.com/downloads/instructions/ubuntu
 ```
 
-**docky**
+**docky (better docker)**
 ```
 via ubuntu software
 ```
