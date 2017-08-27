@@ -107,6 +107,11 @@ via ubuntu software
 via skype download + dpkg -i
 ```
 
+**whatsapp via whatsie**
+```
+download from https://github.com/gsantner/whatsie/releases
+```
+
 ---
 
 **others**
