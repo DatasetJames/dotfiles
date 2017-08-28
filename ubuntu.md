@@ -90,6 +90,11 @@ via skype download + dpkg -i
 download from https://github.com/gsantner/whatsie/releases
 ```
 
+**lastpass**
+```
+tar xjvf lplinux.tar.bz2 && cd lplinux && ./install_lastpass.sh && cd ../ && rm -rf lplinux
+```
+
 **themes**
 ```
 sudo apt-get install unity-tweak-tool
