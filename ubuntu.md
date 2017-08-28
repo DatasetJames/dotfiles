@@ -132,7 +132,7 @@ choose theme on unity tweak
 **todo**
 - [ ] ssh key
 - [ ] swap alt with ctrl
-- [ ] alfred
+- [ ] alfred (spotlight)
 - [ ] screen white/bright
 - [ ] swipe right/left on browser with 2 fingers
 - [ ] wakatime
