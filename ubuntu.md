@@ -102,6 +102,12 @@ install via dpkg -i https://github.com/anmoljagetia/Flatabulous
 choose theme on unity tweak
 ```
 
+**diff**
+```
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+sudo npm i -g diff-so-fancy
+```
+
 ---
 
 **others**
