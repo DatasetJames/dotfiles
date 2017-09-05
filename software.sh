@@ -17,6 +17,7 @@ brew cask install spectacle
 brew cask install spotify
 brew cask install the-unarchiver
 brew install zsh-syntax-highlighting
+brew cask install hyper
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
