@@ -20,6 +20,7 @@ brew install zsh-syntax-highlighting
 brew cask install virtualbox
 brew cask install hyper
 brew cask install whatsapp
+brew cask install cakebrew
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -47,4 +48,3 @@ create key
 - wunderlist
 - https://github.com/zsh-users/zsh-syntax-highlighting
 - Tomato One - Free Focus Timer
-- https://www.cakebrew.com/
