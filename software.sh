@@ -17,6 +17,7 @@ brew cask install spectacle
 brew cask install spotify
 brew cask install the-unarchiver
 brew install zsh-syntax-highlighting
+brew cask install virtualbox
 brew cask install hyper
 
 # oh-my-zsh
