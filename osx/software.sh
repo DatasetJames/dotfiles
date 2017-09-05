@@ -46,3 +46,4 @@ create key
 - https://github.com/sindresorhus/pure
 - wunderlist
 - https://github.com/zsh-users/zsh-syntax-highlighting
+- Tomato One - Free Focus Timer
