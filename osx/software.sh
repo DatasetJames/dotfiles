@@ -21,6 +21,7 @@ brew cask install virtualbox
 brew cask install hyper
 brew cask install whatsapp
 brew cask install cakebrew
+brew cask install zeplin
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
