@@ -49,3 +49,4 @@ create key
 - wunderlist
 - https://github.com/zsh-users/zsh-syntax-highlighting
 - Tomato One - Free Focus Timer
+- Amphetamine
