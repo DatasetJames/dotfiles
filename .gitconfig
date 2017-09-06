@@ -18,7 +18,7 @@
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 	editor = atom
-	pager = diff-highlight | diff-so-fancy | less -r
+	pager = diff-so-fancy | less --tabs=4 -RFX
 
 [push]
 	default = current
@@ -30,11 +30,11 @@
 	whitespace = fix
 	
 [color]
-	ui = always
+	ui = true
 
 [color "diff"]
-	meta = yellow bold
-	commit = green bold
+	meta = 227
+	commit = 227 bold
 	frag = magenta bold
 	old = red bold
 	new = green bold
@@ -42,9 +42,9 @@
 
 [color "diff-highlight"]
 	oldNormal = red bold
-	oldHighlight = "red bold 52"
-	newNormal = "green bold"
-	newHighlight = "green bold 22"
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
 
 [color "branch"]
 	current = yellow reverse
@@ -55,3 +55,6 @@
 	added = yellow
 	changed = green
 	untracked = cyan
+[user]
+	name = Sergio Kopplin
+	email = sergiokopplin@gmail.com
