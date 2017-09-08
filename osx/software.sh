@@ -52,7 +52,6 @@ create key
 - https://github.com/zsh-users/zsh-syntax-highlighting
 - Tomato One - Free Focus Timer
 - Amphetamine
-- https://pip.pypa.io/en/latest/installing/
 
 # vim
 git clone --depth=1 git://github.com/amix/vimrc.git ~/.vim_runtime
